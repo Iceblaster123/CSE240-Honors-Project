@@ -18,6 +18,8 @@ int main(){
     MyList.push_back(w1);
     MyList.push_back(w2);
 
+    cout << "Your army: \n";
+
     for(Character* i : MyList){
         cout << i->getName() << i->getType() << "and has " << i->getHealth() << " hit points and is doing " << i->getDamage() << " damage points\n";
     }
