@@ -8,9 +8,9 @@ using namespace std;
 
 int main(){
     Character* m1 = new Mage("Dumbledor", 2);
-    Character* m2 = new Mage("Gandalf", 1);
+    Mage* m2 = new Mage("Gandalf", 1);
     Character* w1 = new Warrior("Aurther", 4);
-    Character* w2 = new Warrior("Foot Soilder", 1);
+    Warrior* w2 = new Warrior("Foot Soilder", 1);
 
     vector<Character*> MyList;
     MyList.push_back(m1);
