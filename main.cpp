@@ -21,7 +21,7 @@ int main(){
     cout << "Your army: \n";
 
     for(Character* i : MyList){
-        cout << i->getName() << i->getType() << "and has " << i->getHealth() << " hit points and is doing " << i->getDamage() << " damage points\n";
+        cout << i->getName() << i->getType() << "and has " << i->getHealth() << " hit points and is doing " << i->attack() << " damage points\n";
     }
 
     return 0;

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// look at mage class comment
+
 class Warrior : public Character{
     public:
     ~Warrior(){};
