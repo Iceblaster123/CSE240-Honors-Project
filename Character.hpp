@@ -2,6 +2,7 @@
 #define CHARACTER_H
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -12,7 +13,6 @@ class Character{
         void setName(const string& name) {this->name = name;};
         virtual int attack() const = 0;
         int getHealth() {return this->health;};
-        string getName() {return this->name;};
         virtual string getType() = 0;
         virtual void setDamage(int level) = 0;
         virtual void setHealth(int health) = 0;
